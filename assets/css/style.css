@@ -12,7 +12,7 @@
 }
 
 .container_small{
-    width: 60%;
+    width: 50%;
     margin: auto;
 }
 
@@ -98,7 +98,9 @@ ul{
 }
 
  .card_right{
-    padding: 4rem;
+    border-radius: 24px;
+    padding: 2rem;
+    margin: 10px;
     text-align: center;
     background-color: white;
  }
@@ -107,8 +109,8 @@ ul{
     padding-bottom: 3rem;
 }
 
- .img_card{
-    width: 60%;
+ .card_right> .img_card{
+    width: 70%;
  }
 
  .column{
@@ -124,6 +126,20 @@ ul{
  }
 
 /*#endregion planning  */
+
+/*#region heading  */
+.partners{
+    padding: 2rem;
+}
+.heading{
+    text-align: center;
+}
+
+.heading [h]{
+    padding: 1rem 0;
+ }
+/*#endregion heading  */
+
 
 /*#endregion main */
 
