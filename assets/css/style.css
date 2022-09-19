@@ -141,6 +141,14 @@ ul{
 /*#endregion heading  */
 
 
+/*#region partner  */
+.avatar{
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+/*#endregion partner  */
+
 /*#endregion main */
 
 
