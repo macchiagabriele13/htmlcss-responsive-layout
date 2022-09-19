@@ -21,6 +21,19 @@ header nav{
     padding: 1rem 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.button_nav{
+    background-color: white;
+    border-radius: 12px;
+    color: lightskyblue;
+    padding: 0.5rem 1rem;
 }
 
 ul{
@@ -39,7 +52,33 @@ ul{
 
 /*#region main  */
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -2rem;
+}
+ .flex{
+    display: flex;
+    }
 
+ [class^="col_"]{
+    background-color: cornflowerblue;
+    border-radius: 12px;
+    padding: 0 1rem;
+    margin: 2rem;
+ }
+
+ .text_block{
+    padding: 2rem;
+ }
+
+.text_block h3, .text_block p, .text_block a{
+    padding-bottom: 1rem;
+}
+ .img_block > img{
+    max-width: 100%;
+
+ }
 
 /*#endregion main */
 
