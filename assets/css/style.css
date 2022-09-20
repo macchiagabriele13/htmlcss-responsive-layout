@@ -37,31 +37,34 @@ img {
     justify-content: center;
 }
 
-.column_gap{
+.column_gap {
     column-gap: 2rem;
 }
 
-h1 {
-    font-size: 2rem;
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    padding-bottom: 2rem;
 }
 
-h2{
-    font-size: 1.75rem;
-}
-
-h3{
-    font-size: 1rem;
-}
-
-h4 {
-    font-size: 0.75rem;
-}
-
-.relative{
+.relative {
     position: relative;
 }
 
-.absolute{
+.absolute {
     position: absolute;
 }
 
@@ -205,11 +208,6 @@ ul {
     text-align: center;
 }
 
-h1,
-h4,
-h5 {
-    padding-bottom: 2rem;
-}
 
 .heading>h1 {
     color: violet;
@@ -288,7 +286,7 @@ h5 {
     padding-bottom: 1rem;
 }
 
-.btn{
+.btn {
     background-color: blueviolet;
     padding: 8px 20px;
     border-radius: 24px;
@@ -300,11 +298,11 @@ h5 {
     letter-spacing: 3px;
 }
 
-.left{
+.left {
     text-align: left;
 }
 
-.content_card_high .body_card{
+.content_card_high .body_card {
     padding: 0;
 }
 
@@ -312,40 +310,40 @@ h5 {
 
 /*#region about */
 
-.about{
+.about {
     padding: 2rem 0;
 }
 
-.about p{
+.about p {
     margin: 1rem 0;
     line-height: 2rem;
 }
 
-.about h1{
+.about h1 {
     margin: 0;
     padding: 0;
 }
 
-.virgolette.absolute{
+.virgolette.absolute {
     top: 0;
     right: 0;
     font-size: 6rem;
     color: violet;
 }
 
-.about_avatar{
+.about_avatar {
     padding: 0 4rem;
 }
 
-.about_avatar h3{
+.about_avatar h3 {
     font-size: 1.5rem;
 }
 
-.avatar_body h3{
+.avatar_body h3 {
     padding: 1rem 0;
 }
 
-.btn_linkedin{
+.btn_linkedin {
     background-color: blueviolet;
     padding: 4px 10px;
     border-radius: 24px;
@@ -357,12 +355,38 @@ h5 {
 
 }
 
-.fa-linkedin{
+.fa-linkedin {
     padding-right: 2px;
 }
+
+.about [class^="col_"] {
+    padding: 0 1rem;
+}
+
 /*#endregion about */
 
 /*#region free */
+.free {
+    background-color: violet;
+    padding: 2rem 0;
+}
+
+.free_text {
+    text-align: center;
+}
+
+.free_text p {
+    padding-bottom: 2rem;
+}
+
+.btn_free {
+    background-color: white;
+    padding: 10px 30px;
+    color: violet;
+    text-decoration: none;
+    border-radius: 24px;
+    display: inline-block;
+}
 
 /*#endregion free */
 
