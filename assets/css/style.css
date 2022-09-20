@@ -37,6 +37,10 @@ img {
     justify-content: center;
 }
 
+.column_gap{
+    column-gap: 2rem;
+}
+
 h1 {
     font-size: 2rem;
 }
@@ -307,6 +311,7 @@ h5 {
 /*#endregion benefits */
 
 /*#region about */
+
 .about{
     padding: 2rem 0;
 }
@@ -327,7 +332,41 @@ h5 {
     font-size: 6rem;
     color: violet;
 }
+
+.about_avatar{
+    padding: 0 4rem;
+}
+
+.about_avatar h3{
+    font-size: 1.5rem;
+}
+
+.avatar_body h3{
+    padding: 1rem 0;
+}
+
+.btn_linkedin{
+    background-color: blueviolet;
+    padding: 4px 10px;
+    border-radius: 24px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+
+}
+
+.fa-linkedin{
+    padding-right: 2px;
+}
 /*#endregion about */
+
+/*#region free */
+
+/*#endregion free */
+
+
 
 /*#endregion main */
 
